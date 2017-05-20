@@ -19,7 +19,7 @@ confinement: devmode
 
 apps: 
   worldparty: 
-    command: ../worldparty/install/bin/WorldParty
+    command: usr/local/bin/WorldParty
 
 parts: 
     worldparty: 
