@@ -14,7 +14,7 @@ parts:
     worldparty: 
         source: https://github.com/joelpg/usdxworldparty.git
         source-type: git
-        plugin: make
+        plugin: autotools
   
     ffmpeg: 
         source: https://ffmpeg.org/releases/ffmpeg-3.2.2.tar.gz
