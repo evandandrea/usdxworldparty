@@ -8,7 +8,7 @@ confinement: devmode
 
 apps: 
   worldparty: 
-    command: desktop-launch ./Worldparty
+    command: gtk-launch Worldparty
 
 parts: 
     worldparty: 
