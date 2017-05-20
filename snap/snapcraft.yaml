@@ -9,5 +9,5 @@ confinement: devmode
 
 parts:
   worldparty:
-        source: .
-        plugin: autotools
+        source: ./dists/linux/
+        plugin: make
