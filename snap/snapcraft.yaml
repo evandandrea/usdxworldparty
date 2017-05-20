@@ -19,19 +19,8 @@ parts:
         build-packages: 
             - autoconf
             - automake
-            - build-essential
-            - cmake
+            - build-essential            
             - fpc
-            - libass-dev
-            - libfreetype6-dev
-            - libmp3lame-dev
-            - libopus-dev
-            - libsdl1.2-dev
-            - libtool
-            - libva-dev
-            - libvdpau-dev
-            - libvorbis-dev
-            - libvpx-dev
             - make
             - pkg-config
             - texinfo
@@ -58,7 +47,7 @@ parts:
             - ttf-freefont
             - portaudio19-dev
             - ffmpeg
-            - lua5.1
+            - lua5.3-dev
             - libpng16-16
             - libopencv-highgui-dev
             - libprojectm-dev
