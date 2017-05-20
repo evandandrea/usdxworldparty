@@ -10,10 +10,10 @@ apps:
   worldparty:
     command: desktop-launch ./Worldparty
 
-parts:
-  worldparty:
-  	source: https://github.com/joelpg/usdxworldparty.git
-        source-type: git
+parts: 
+	worldparty: 
+	source: https://github.com/joelpg/usdxworldparty.git
+	source-type: git
 	plugin: make
   ffmpeg:    
     plugin: autotools
