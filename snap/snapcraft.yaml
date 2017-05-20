@@ -51,12 +51,13 @@ parts:
             - libsdl2-gfx-dev            
             - libavdevice-dev
             - libsqlite3-0
-            - libsqlite3-dev-
+            - libsqlite3-dev
             - libpcre3
             - libpcre3-dev
             - ttf-dejavu
             - ttf-freefont
             - portaudio19-dev
+            - ffmpeg
             - lua5.1
             - libpng16-16
             - libopencv-highgui-dev
