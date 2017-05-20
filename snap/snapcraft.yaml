@@ -14,35 +14,12 @@ parts:
   worldparty:
         source: .
         plugin: make
-                
-  ffmpeg:
-    source: https://ffmpeg.org/releases/ffmpeg-3.2.2.tar.gz
+	
+  ffmpeg:    
     plugin: autotools
-    configflags:   
-	- --enable-gpl
-	- --disable-static
-	- --enable-shared
-	- --disable-programs
-	- --disable-doc
-	- --disable-encoders
-	- --disable-xlib
-	- --disable-libxcb
-	- --disable-libxcb-shm
-	- --disable-libx264
-	- --disable-libx265
-	- --disable-network
-	- --disable-debug
-	- --disable-indevs
-	- --disable-outdevs
-	- --disable-postproc
-	- --disable-muxers
-	- --disable-bsfs
-	- --disable-filters
-	- --disable-protocols
-	- --disable-lzma
-	- --disable-bzlib
-	- --disable-vaapi
-    
+    configflags: [--enable-gpl, --disable-static, --enable-shared, --disable-programs, --disable-doc, --disable-encoders, --disable-xlib, --disable-libxcb, --disable-libxcb-shm, --disable-libx264, --disable-libx265, --disable-network, --disable-debug, --disable-indevs, --disable-outdevs, --disable-postproc, --disable-muxers, --disable-bsfs, --disable-filters, --disable-protocols, --disable-lzma, --disable-bzlib, --disable-vaapi]
+    source: source: https://ffmpeg.org/releases/ffmpeg-3.2.2.tar.gz
+    source-type: tar
     organize:
         usr/local/bin/: bin/
     build-packages:
