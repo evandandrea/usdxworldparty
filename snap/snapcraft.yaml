@@ -15,16 +15,13 @@ parts:
         source: https://github.com/joelpg/usdxworldparty.git
         source-type: git
         plugin: autotools
-  
-    ffmpeg: 
-        source: https://ffmpeg.org/releases/ffmpeg-3.2.2.tar.gz
-        plugin: autotools
-        configflags: [--enable-gpl, --disable-static, --enable-shared, --disable-programs, --disable-doc, --disable-encoders, --disable-xlib, --disable-libxcb, --disable-libxcb-shm, --disable-libx264, --disable-libx265, --disable-network, --disable-debug, --disable-indevs, --disable-outdevs, --disable-postproc, --disable-muxers, --disable-bsfs, --disable-filters, --disable-protocols, --disable-lzma, --disable-bzlib, --disable-vaapi]
+      
         build-packages: 
             - autoconf
             - automake
             - build-essential
             - cmake
+            - fpc
             - libass-dev
             - libfreetype6-dev
             - libmp3lame-dev
@@ -39,8 +36,7 @@ parts:
             - pkg-config
             - texinfo
             - yasm
-            - zlib1g-dev
-            - fpc
+            - zlib1g-dev            
             - libsdl2-dev
             - libsdl2-image-dev
             - libsdl2-image-2.0-0 
@@ -61,7 +57,7 @@ parts:
             - ttf-dejavu
             - ttf-freefont
             - portaudio19-dev
-            - lua5.1-dev
+            - lua5.1
             - libpng16-16
             - libopencv-highgui-dev
             - libprojectm-dev
