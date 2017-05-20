@@ -25,29 +25,46 @@ parts:
             - automake
             - build-essential
             - cmake
-            - g++
-            - git
             - libass-dev
             - libfreetype6-dev
             - libmp3lame-dev
             - libopus-dev
             - libsdl1.2-dev
-            - libtheora-dev
             - libtool
             - libva-dev
             - libvdpau-dev
             - libvorbis-dev
             - libvpx-dev
-            - libx264-dev
-            - libx265-dev
-            - libxcb-shm0-dev
-            - libxcb-xfixes0-dev
-            - libxcb1-dev
             - make
             - pkg-config
             - texinfo
             - yasm
             - zlib1g-dev
+            - fpc
+            - libsdl2-dev
+            - libsdl2-image-dev
+            - libsdl2-image-2.0-0 
+            - libsdl2-2.0-0
+            - libsdl2-mixer-2.0-0 
+            - libsdl2-mixer-dev
+            - libsdl2-net-2.0-0 
+            - libsdl2-net-dev 
+            - libsdl2-ttf-2.0-0 
+            - libsdl2-ttf-dev 
+            - libsdl2-gfx-1.0-0
+            - libsdl2-gfx-dev            
+            - libavdevice-dev
+            - libsqlite3-0
+            - libsqlite3-dev-
+            - libpcre3
+            - libpcre3-dev
+            - ttf-dejavu
+            - ttf-freefont
+            - portaudio19-dev
+            - lua5.1-dev
+            - libpng16-16
+            - libopencv-highgui-dev
+            - libprojectm-dev
         organize: 
             usr/local/bin/: bin/
 
