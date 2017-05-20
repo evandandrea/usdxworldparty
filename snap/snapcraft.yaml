@@ -8,6 +8,6 @@ grade: devel
 confinement: devmode 
 
 parts:
-  wordparty:
-        source: usdxworldparty
-        plugin: autotools
+  worldparty:
+        source: .
+        plugin: [network]
