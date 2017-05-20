@@ -19,21 +19,31 @@ parts:
   ffmpeg:
     source: https://ffmpeg.org/releases/ffmpeg-3.2.2.tar.gz
     plugin: autotools
-    configflags: 
-      - --disable-ffplay
-      - --disable-ffprobe
-      - --disable-ffserver
-      - --enable-gpl
-      - --enable-libass
-      - --enable-libfreetype
-      - --enable-libmp3lame
-      - --enable-libopus
-      - --enable-libtheora
-      - --enable-libvorbis
-      - --enable-libvpx
-      - --enable-libx264
-      - --enable-libx265
-      - --enable-nonfree
+    configflags:   
+    - --enable-gpl
+	- --disable-static
+	- --enable-shared
+	- --disable-programs
+	- --disable-doc
+	- --disable-encoders
+	- --disable-xlib
+	- --disable-libxcb
+	- --disable-libxcb-shm
+	- --disable-libx264
+	- --disable-libx265
+	- --disable-network
+	- --disable-debug
+	- --disable-indevs
+	- --disable-outdevs
+	- --disable-postproc
+	- --disable-muxers
+	- --disable-bsfs
+	- --disable-filters
+	- --disable-protocols
+	- --disable-lzma
+	- --disable-bzlib
+	- --disable-vaapi
+    
     organize:
         usr/local/bin/: bin/
     build-packages:
