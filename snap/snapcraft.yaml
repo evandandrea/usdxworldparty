@@ -11,7 +11,7 @@ description: |
   skins, font, improved camera and mouse support, thousands of new options 
   come with this new version. Check it out!
     ----------------- 
-    Official Website http://ultrastar-es.org 
+    Official Website: http://ultrastar-es.org 
     -----------------
 
 grade: devel 
@@ -23,7 +23,7 @@ apps:
 
 parts: 
     worldparty: 
-        source: https://github.com/joelpg/usdxworldparty.git
+        source: https://github.com/ultrastares/usdxworldparty.git
         source-type: git
         plugin: autotools
       
@@ -62,6 +62,4 @@ parts:
             - libpng16-16
             - libopencv-highgui-dev
             - libprojectm-dev
-        organize: 
-            usr/local/bin/: bin/
-
+      
