@@ -14,7 +14,7 @@ description: |
     Official Website: http://ultrastar-es.org 
     -----------------
 
-grade: candidate 
+grade: devel 
 confinement: strict 
 
 apps: 
