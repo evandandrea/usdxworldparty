@@ -20,7 +20,7 @@ parts:
     source: https://ffmpeg.org/releases/ffmpeg-3.2.2.tar.gz
     plugin: autotools
     configflags:   
-    - --enable-gpl
+	- --enable-gpl
 	- --disable-static
 	- --enable-shared
 	- --disable-programs
