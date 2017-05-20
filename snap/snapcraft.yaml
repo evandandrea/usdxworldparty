@@ -47,7 +47,7 @@ parts:
             - ttf-freefont
             - portaudio19-dev
             - ffmpeg
-            - lua5.3-dev
+            - liblua5.3-dev
             - libpng16-16
             - libopencv-highgui-dev
             - libprojectm-dev
