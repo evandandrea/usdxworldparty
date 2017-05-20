@@ -14,12 +14,12 @@ description: |
     Official Website: http://ultrastar-es.org 
     -----------------
 
-grade: devel 
-confinement: devmode 
+grade: candidate 
+confinement: strict 
 
 apps: 
   worldparty: 
-    command: bin/WorldParty
+    command: desktop-launch bin/WorldParty
 
 parts: 
     worldparty: 
