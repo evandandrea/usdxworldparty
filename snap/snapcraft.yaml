@@ -19,7 +19,7 @@ confinement: strict
 
 apps: 
   worldparty: 
-    command: desktop-launch bin/WorldParty
+    command: bin/WorldParty
     plugs: [X11, network, pulseaudio, opengl, unity7]
 
 parts: 
