@@ -63,5 +63,4 @@ parts:
             - libpng16-16
             - libopencv-highgui-dev
             - libprojectm-dev
-            after: [desktop-gtk2]
-      
+                 
