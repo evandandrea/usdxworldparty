@@ -20,6 +20,7 @@ confinement: strict
 apps: 
   worldparty: 
     command: desktop-launch bin/WorldParty
+    plugs: [X11, network, pulseaudio, opengl, unity7]
 
 parts: 
     worldparty: 
@@ -62,4 +63,5 @@ parts:
             - libpng16-16
             - libopencv-highgui-dev
             - libprojectm-dev
+            after: [desktop-gtk2]
       
