@@ -16,11 +16,12 @@ description: |
 
 grade: devel 
 confinement: strict 
+icon: share/WorldParty/resources/icons/WorldParty.png
 
 apps: 
   worldparty: 
     command: bin/WorldParty
-    plugs: [X11, network, pulseaudio, opengl, unity7]
+    plugs: [network, pulseaudio, opengl]
 
 parts: 
     worldparty: 
