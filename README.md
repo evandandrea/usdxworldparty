@@ -17,6 +17,8 @@ come with this new version. Check it out!
 Official Website:  http://ultrastar-es.org 
 -----------------
 
+[![Snap Status](https://build.snapcraft.io/badge/joelpg/usdxworldparty.svg)](https://build.snapcraft.io/user/joelpg/usdxworldparty)
+
 ## Documentation
 Visit our [Wiki](https://github.com/ultrastares/usdxworldparty/wiki) to get help about how to compile the game, see changelog, etc..
 
